@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DolmerApi.Services
+namespace DietPlannerAPI.Product
 {
     public class ProductService
     {
@@ -14,11 +14,11 @@ namespace DolmerApi.Services
         public IEnumerable<Product> GetAllProducts()
         {
             return Products;
-        };
+        }
 
         public string Test()
         {
-            return "This is a test from the ProductService class"
+            return "This is a test from the ProductService class";
         }
     }
 }
